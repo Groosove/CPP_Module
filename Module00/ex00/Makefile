@@ -21,7 +21,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	clang++ -Wall -Wextra -Werror $(SRC) -o $(NAME)
 
-%.o%.cpp:
+.o.cpp:
 	clang++ -Wall -Wextra -Werror -c $< -o $@
 
 clean:

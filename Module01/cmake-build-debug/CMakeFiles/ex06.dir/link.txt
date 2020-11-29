@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Wextra -Werror -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex06.dir/ex06/Weapon.cpp.o CMakeFiles/ex06.dir/ex06/HumanA.cpp.o CMakeFiles/ex06.dir/ex06/HumanB.cpp.o CMakeFiles/ex06.dir/ex06/main.cpp.o  -o ex06 

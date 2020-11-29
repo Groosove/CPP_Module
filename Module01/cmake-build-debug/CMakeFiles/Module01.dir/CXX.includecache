@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex00/Pony.cpp
+Pony.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex00/Pony.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex00/Pony.hpp
+string
+-
+iostream
+-
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex00/main.cpp
+Pony.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex00/Pony.hpp
+
