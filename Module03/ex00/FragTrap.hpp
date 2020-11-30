@@ -9,6 +9,14 @@
 
 #include <iostream>
 
+const std::string randomPhrase[5] = {
+		"hello kitty boom attack",
+		"rain of tetris attack",
+		"quicksand jelly attack",
+		"walking trees attack",
+		"dancing beans attack"
+};
+
 class FragTrap {
 public:
 	FragTrap(const std::string&);
@@ -20,19 +28,20 @@ public:
 	void		beRepaired(uint amount);
 	void		vaulthunerDotExe(std::string const & target);
 	std::string	getName() const;
-	uint		getMeleeAttack() const;
-	uint		getRangedAttack() const;
+	uint		getMeleeAttackDamage() const;
+	uint		getRangeAttackDamage() const;
+	uint		getRandomAttack() const;
 	~FragTrap();
 
 private:
 	uint		_maxHitPoint;
-	uint 		_currentHitPoint;
-	uint		_energyPoint;
+	int 		_currentHitPoint;
+	int			_energyPoint;
 	uint		_maxEnergyPoint;
 	uint		_level;
 	std::string	_name;
 	uint		_meleeAttackDamage;
-	uint		_rangedAtackDamage;
+	uint		_rangedAttackDamage;
 	uint		_armorDamageReduction;
 
 };
