@@ -60,7 +60,7 @@ void FragTrap::takeDamage(uint amount) {
 	std::cout << "FR4G-TP " << _name << " current hit points " << _currentHitPoint << std::endl;
 }
 
-void FragTrap::vaulthunerDotExe(const std::string &target) {
+void FragTrap::vaulthunterDotExe(const std::string &target) {
 	std::srand(time(0));
 	if (_energyPoint >= 25) {
 		this->_energyPoint -= 25;

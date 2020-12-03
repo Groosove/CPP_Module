@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/ClapTrap.hpp
+iostream
+-
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/FragTrap.hpp
+ClapTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/ClapTrap.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/NinjaTrap.cpp
+NinjaTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/NinjaTrap.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/NinjaTrap.hpp
+ClapTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/ClapTrap.hpp
+FragTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/FragTrap.hpp
+ScavTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/ScavTrap.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/ScavTrap.hpp
+ClapTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/ClapTrap.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/main.cpp
+FragTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/FragTrap.hpp
+ScavTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/ScavTrap.hpp
+NinjaTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex03/NinjaTrap.hpp
+

@@ -9,16 +9,17 @@
 
 int main() {
 	FragTrap fragTrapFirst("Nikolay");
+	FragTrap fragTrapFirst("Nikolay");
 	FragTrap fragTrapSecond("Kolya");
 	FragTrap fragTrapThird("Lalilalay");
 
 	fragTrapFirst.meleeAttack(fragTrapSecond.getName());
-	fragTrapFirst.takeDamage(fragTrapFirst.getMeleeAttackDamage());
+	fragTrapSecond.takeDamage(fragTrapFirst.getMeleeAttackDamage());
 
 	fragTrapSecond.rangedAttack(fragTrapThird.getName());
-	fragTrapSecond.takeDamage(fragTrapSecond.getRangeAttackDamage());
+	fragTrapThird.takeDamage(fragTrapSecond.getRangeAttackDamage());
 
-	fragTrapThird.vaulthunerDotExe(fragTrapFirst.getName());
-	fragTrapThird.takeDamage(fragTrapThird.getRandomAttack());
+	fragTrapThird.vaulthunterDotExe(fragTrapFirst.getName());
+	fragTrapFirst.takeDamage(fragTrapThird.getRandomAttack());
 	return 0;
 }

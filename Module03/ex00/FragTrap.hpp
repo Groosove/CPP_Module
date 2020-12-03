@@ -26,7 +26,7 @@ public:
 	void		meleeAttack(std::string const & target);
 	void		takeDamage(uint amount);
 	void		beRepaired(uint amount);
-	void		vaulthunerDotExe(std::string const & target);
+	void		vaulthunterDotExe(std::string const & target);
 	std::string	getName() const;
 	uint		getMeleeAttackDamage() const;
 	uint		getRangeAttackDamage() const;
