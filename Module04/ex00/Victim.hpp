@@ -7,12 +7,19 @@
 #ifndef MODULE04_VICTIM_HPP
 # define MODULE04_VICTIM_HPP
 
+#include <iostream>
 
 class Victim {
 public:
-	Victim();
-
 	~Victim();
+	Victim(const std::string &name);
+	Victim(const Victim&);
+	Victim operator=(const  Victim&);
+	std::string getName() const;
+
+private:
+	std::string _name;
+	Victim();
 };
 
 
