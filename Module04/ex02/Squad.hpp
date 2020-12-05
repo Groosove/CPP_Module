@@ -7,12 +7,21 @@
 #ifndef MODULE04_SQUAD_HPP
 # define MODULE04_SQUAD_HPP
 
-class Squad {
+#include "ISquad.hpp"
+
+class Squad: public ISquad {
 public:
 	Squad();
 	~Squad();
 	Squad &operator=(const Squad &);
 	Squad(const Squad &);
+	int getCount() const;
+	ISpaceMarine* getUnit(int) const;
+	int push(ISpaceMarine*);
+
+private:
+	int _count;
+	ISpaceMarine **_spaceMarine;
 };
 
 #endif

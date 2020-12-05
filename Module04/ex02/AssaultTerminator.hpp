@@ -7,12 +7,18 @@
 #ifndef MODULE04_ASSAULTTERMINATOR_HPP
 # define MODULE04_ASSAULTTERMINATOR_HPP
 
-class AssaultTerminator {
+# include "ISpaceMarine.hpp"
+
+class AssaultTerminator: public ISpaceMarine {
 public:
 	AssaultTerminator();
-	~AssaultTerminator();
+	virtual ~AssaultTerminator();
 	AssaultTerminator &operator=(const AssaultTerminator &);
 	AssaultTerminator(const AssaultTerminator &);
+	ISpaceMarine* clone() const;
+	void battleCry() const;
+	void rangedAttack() const;
+	void meleeAttack() const;
 };
 
 #endif

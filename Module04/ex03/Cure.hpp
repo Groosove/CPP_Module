@@ -7,15 +7,15 @@
 #ifndef MODULE04_CURE_HPP
 # define MODULE04_CURE_HPP
 
-class Cure {
+#include "AMateria.hpp"
+
+class Cure: public AMateria {
 public:
 	Cure();
-
-	~Cure();
-
+	virtual ~Cure();
 	Cure &operator=(const Cure &);
-
 	Cure(const Cure &);
+	void use(ICharacter &target);
 };
 
 #endif

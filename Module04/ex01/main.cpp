@@ -5,8 +5,12 @@
 
 #include "Character.hpp"
 #include "AWeapon.hpp"
+#include "RadScorpion.hpp"
+#include "PlasmaRifle.hpp"
+#include "PowerFist.hpp"
 
 int main() {
+
 	Character* me = new Character("me");
 	std::cout << *me;
 	Enemy* b = new RadScorpion();

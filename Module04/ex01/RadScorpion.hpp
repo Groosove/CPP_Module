@@ -8,13 +8,15 @@
 # define MODULE04_RADSCORPION_HPP
 
 #include "Enemy.hpp"
-class RadScorpion:  {
+
+class RadScorpion: public Enemy{
 public:
+
 	RadScorpion();
 	~RadScorpion();
 	RadScorpion & operator=(const RadScorpion &);
 	RadScorpion(const RadScorpion &);
-	virtual void takeDamage() const;
+
 };
 
 #endif

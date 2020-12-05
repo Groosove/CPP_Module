@@ -7,15 +7,15 @@
 #ifndef MODULE04_ICE_HPP
 # define MODULE04_ICE_HPP
 
-class Ice {
+#include "AMateria.hpp"
+
+class Ice: public AMateria {
 public:
 	Ice();
-
-	~Ice();
-
+	virtual ~Ice();
 	Ice &operator=(const Ice &);
-
 	Ice(const Ice &);
+	void use(ICharacter &target);
 };
 
 #endif

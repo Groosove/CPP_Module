@@ -7,11 +7,15 @@
 #ifndef MODULE04_SUPERMUTANT_HPP
 # define MODULE04_SUPERMUTANT_HPP
 
+#include "Enemy.hpp"
 
-class SuperMutant {
+class SuperMutant: public Enemy {
 public:
 	SuperMutant();
 	~SuperMutant();
+	SuperMutant& operator=(const SuperMutant&);
+	SuperMutant(const SuperMutant&);
+	virtual void takeDamage(int damage);
 };
 
 

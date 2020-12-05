@@ -7,12 +7,18 @@
 #ifndef TACTICALMARINE_HPP
 # define TACTICALMARINE_HPP
 
-class TacticalMarine {
+#include "ISpaceMarine.hpp"
+
+class TacticalMarine: public ISpaceMarine {
 public:
 	TacticalMarine();
-	~TacticalMarine();
+	virtual ~TacticalMarine();
 	TacticalMarine &operator=(const TacticalMarine &);
 	TacticalMarine(const TacticalMarine &);
+	ISpaceMarine* clone() const;
+	void battleCry() const;
+	void rangedAttack() const;
+	void meleeAttack() const;
 };
 
 #endif
