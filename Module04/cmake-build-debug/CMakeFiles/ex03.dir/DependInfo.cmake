@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex03/AMateria.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/AMateria.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex03/Character.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/Character.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex03/Cure.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/Cure.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex03/Ice.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/Ice.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex03/MateriaSource.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/MateriaSource.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex03/main.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/main.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex03/AMateria.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/AMateria.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex03/Character.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/Character.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex03/Cure.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/Cure.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex03/Ice.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/Ice.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex03/MateriaSource.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/MateriaSource.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex03/main.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex03.dir/ex03/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

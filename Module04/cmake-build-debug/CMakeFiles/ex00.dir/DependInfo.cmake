@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Peon.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/ex00/Peon.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Sorcerer.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Victim.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/ex00/Victim.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/main.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/ex00/main.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex00/Peon.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/ex00/Peon.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex00/Sorcerer.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex00/Victim.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/ex00/Victim.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex00/main.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/ex00/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

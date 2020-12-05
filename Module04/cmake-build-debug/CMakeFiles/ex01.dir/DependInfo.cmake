@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex01/AWeapon.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/AWeapon.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex01/Character.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/Character.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex01/Enemy.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/Enemy.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex01/PlasmaRifle.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/PlasmaRifle.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex01/PowerFirst.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/PowerFirst.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex01/RadScorpion.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/RadScorpion.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex01/SuperMutant.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/SuperMutant.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex01/AWeapon.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/AWeapon.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex01/Character.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/Character.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex01/Enemy.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/Enemy.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex01/PlasmaRifle.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/PlasmaRifle.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex01/PowerFist.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/PowerFist.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex01/RadScorpion.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/RadScorpion.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex01/SuperMutant.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/SuperMutant.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module04/ex01/main.cpp" "/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex01.dir/ex01/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

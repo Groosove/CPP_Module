@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/arturlutfullin/Desktop/CPP Module/Module04"
+CMAKE_SOURCE_DIR = /Users/flavon/Desktop/CPP_Module/Module04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex00.dir/depend.make
@@ -79,55 +79,55 @@ include CMakeFiles/ex00.dir/flags.make
 
 CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.o: CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.o: ../ex00/Sorcerer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.o -c "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Sorcerer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.o -c /Users/flavon/Desktop/CPP_Module/Module04/ex00/Sorcerer.cpp
 
 CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Sorcerer.cpp" > CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/flavon/Desktop/CPP_Module/Module04/ex00/Sorcerer.cpp > CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.i
 
 CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Sorcerer.cpp" -o CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/flavon/Desktop/CPP_Module/Module04/ex00/Sorcerer.cpp -o CMakeFiles/ex00.dir/ex00/Sorcerer.cpp.s
 
 CMakeFiles/ex00.dir/ex00/Victim.cpp.o: CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/ex00/Victim.cpp.o: ../ex00/Victim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex00.dir/ex00/Victim.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ex00/Victim.cpp.o -c "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Victim.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex00.dir/ex00/Victim.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ex00/Victim.cpp.o -c /Users/flavon/Desktop/CPP_Module/Module04/ex00/Victim.cpp
 
 CMakeFiles/ex00.dir/ex00/Victim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/ex00/Victim.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Victim.cpp" > CMakeFiles/ex00.dir/ex00/Victim.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/flavon/Desktop/CPP_Module/Module04/ex00/Victim.cpp > CMakeFiles/ex00.dir/ex00/Victim.cpp.i
 
 CMakeFiles/ex00.dir/ex00/Victim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/ex00/Victim.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Victim.cpp" -o CMakeFiles/ex00.dir/ex00/Victim.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/flavon/Desktop/CPP_Module/Module04/ex00/Victim.cpp -o CMakeFiles/ex00.dir/ex00/Victim.cpp.s
 
 CMakeFiles/ex00.dir/ex00/Peon.cpp.o: CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/ex00/Peon.cpp.o: ../ex00/Peon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex00.dir/ex00/Peon.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ex00/Peon.cpp.o -c "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Peon.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex00.dir/ex00/Peon.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ex00/Peon.cpp.o -c /Users/flavon/Desktop/CPP_Module/Module04/ex00/Peon.cpp
 
 CMakeFiles/ex00.dir/ex00/Peon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/ex00/Peon.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Peon.cpp" > CMakeFiles/ex00.dir/ex00/Peon.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/flavon/Desktop/CPP_Module/Module04/ex00/Peon.cpp > CMakeFiles/ex00.dir/ex00/Peon.cpp.i
 
 CMakeFiles/ex00.dir/ex00/Peon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/ex00/Peon.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/Peon.cpp" -o CMakeFiles/ex00.dir/ex00/Peon.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/flavon/Desktop/CPP_Module/Module04/ex00/Peon.cpp -o CMakeFiles/ex00.dir/ex00/Peon.cpp.s
 
 CMakeFiles/ex00.dir/ex00/main.cpp.o: CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/ex00/main.cpp.o: ../ex00/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex00.dir/ex00/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ex00/main.cpp.o -c "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex00.dir/ex00/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ex00/main.cpp.o -c /Users/flavon/Desktop/CPP_Module/Module04/ex00/main.cpp
 
 CMakeFiles/ex00.dir/ex00/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/ex00/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/main.cpp" > CMakeFiles/ex00.dir/ex00/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/flavon/Desktop/CPP_Module/Module04/ex00/main.cpp > CMakeFiles/ex00.dir/ex00/main.cpp.i
 
 CMakeFiles/ex00.dir/ex00/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/ex00/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arturlutfullin/Desktop/CPP Module/Module04/ex00/main.cpp" -o CMakeFiles/ex00.dir/ex00/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/flavon/Desktop/CPP_Module/Module04/ex00/main.cpp -o CMakeFiles/ex00.dir/ex00/main.cpp.s
 
 # Object files for target ex00
 ex00_OBJECTS = \
@@ -145,7 +145,7 @@ ex00: CMakeFiles/ex00.dir/ex00/Peon.cpp.o
 ex00: CMakeFiles/ex00.dir/ex00/main.cpp.o
 ex00: CMakeFiles/ex00.dir/build.make
 ex00: CMakeFiles/ex00.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ex00"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ex00"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex00.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/ex00.dir/clean:
 .PHONY : CMakeFiles/ex00.dir/clean
 
 CMakeFiles/ex00.dir/depend:
-	cd "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/arturlutfullin/Desktop/CPP Module/Module04" "/Users/arturlutfullin/Desktop/CPP Module/Module04" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/flavon/Desktop/CPP_Module/Module04 /Users/flavon/Desktop/CPP_Module/Module04 /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/ex00.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ex00.dir/depend
 

@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/arturlutfullin/Desktop/CPP Module/Module04"
+CMAKE_SOURCE_DIR = /Users/flavon/Desktop/CPP_Module/Module04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -398,32 +398,32 @@ ex01/PlasmaRifle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/PlasmaRifle.cpp.s
 .PHONY : ex01/PlasmaRifle.cpp.s
 
-ex01/PowerFirst.o: ex01/PowerFirst.cpp.o
+ex01/PowerFist.o: ex01/PowerFist.cpp.o
 
-.PHONY : ex01/PowerFirst.o
+.PHONY : ex01/PowerFist.o
 
 # target to build an object file
-ex01/PowerFirst.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/PowerFirst.cpp.o
-.PHONY : ex01/PowerFirst.cpp.o
+ex01/PowerFist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/PowerFist.cpp.o
+.PHONY : ex01/PowerFist.cpp.o
 
-ex01/PowerFirst.i: ex01/PowerFirst.cpp.i
+ex01/PowerFist.i: ex01/PowerFist.cpp.i
 
-.PHONY : ex01/PowerFirst.i
+.PHONY : ex01/PowerFist.i
 
 # target to preprocess a source file
-ex01/PowerFirst.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/PowerFirst.cpp.i
-.PHONY : ex01/PowerFirst.cpp.i
+ex01/PowerFist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/PowerFist.cpp.i
+.PHONY : ex01/PowerFist.cpp.i
 
-ex01/PowerFirst.s: ex01/PowerFirst.cpp.s
+ex01/PowerFist.s: ex01/PowerFist.cpp.s
 
-.PHONY : ex01/PowerFirst.s
+.PHONY : ex01/PowerFist.s
 
 # target to generate assembly for a file
-ex01/PowerFirst.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/PowerFirst.cpp.s
-.PHONY : ex01/PowerFirst.cpp.s
+ex01/PowerFist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/PowerFist.cpp.s
+.PHONY : ex01/PowerFist.cpp.s
 
 ex01/RadScorpion.o: ex01/RadScorpion.cpp.o
 
@@ -478,6 +478,33 @@ ex01/SuperMutant.s: ex01/SuperMutant.cpp.s
 ex01/SuperMutant.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/SuperMutant.cpp.s
 .PHONY : ex01/SuperMutant.cpp.s
+
+ex01/main.o: ex01/main.cpp.o
+
+.PHONY : ex01/main.o
+
+# target to build an object file
+ex01/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/main.cpp.o
+.PHONY : ex01/main.cpp.o
+
+ex01/main.i: ex01/main.cpp.i
+
+.PHONY : ex01/main.i
+
+# target to preprocess a source file
+ex01/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/main.cpp.i
+.PHONY : ex01/main.cpp.i
+
+ex01/main.s: ex01/main.cpp.s
+
+.PHONY : ex01/main.s
+
+# target to generate assembly for a file
+ex01/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/main.cpp.s
+.PHONY : ex01/main.cpp.s
 
 ex02/AssaultTerminator.o: ex02/AssaultTerminator.cpp.o
 
@@ -785,15 +812,18 @@ help:
 	@echo "... ex01/PlasmaRifle.o"
 	@echo "... ex01/PlasmaRifle.i"
 	@echo "... ex01/PlasmaRifle.s"
-	@echo "... ex01/PowerFirst.o"
-	@echo "... ex01/PowerFirst.i"
-	@echo "... ex01/PowerFirst.s"
+	@echo "... ex01/PowerFist.o"
+	@echo "... ex01/PowerFist.i"
+	@echo "... ex01/PowerFist.s"
 	@echo "... ex01/RadScorpion.o"
 	@echo "... ex01/RadScorpion.i"
 	@echo "... ex01/RadScorpion.s"
 	@echo "... ex01/SuperMutant.o"
 	@echo "... ex01/SuperMutant.i"
 	@echo "... ex01/SuperMutant.s"
+	@echo "... ex01/main.o"
+	@echo "... ex01/main.i"
+	@echo "... ex01/main.s"
 	@echo "... ex02/AssaultTerminator.o"
 	@echo "... ex02/AssaultTerminator.i"
 	@echo "... ex02/AssaultTerminator.s"

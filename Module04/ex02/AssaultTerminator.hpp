@@ -10,11 +10,8 @@
 class AssaultTerminator {
 public:
 	AssaultTerminator();
-
 	~AssaultTerminator();
-
 	AssaultTerminator &operator=(const AssaultTerminator &);
-
 	AssaultTerminator(const AssaultTerminator &);
 };
 

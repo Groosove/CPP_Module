@@ -12,6 +12,11 @@ Victim::Victim(const Victim &victim) {
 	*this = victim;
 }
 
+Victim Victim::operator=(const Victim &victim) {
+    this->_name = victim.getName();
+    return *this;
+}
+
 Victim::Victim(const std::string &name) : _name(name){
 	std::cout << "Soma random victim called " << _name << " just appeared!" << std::endl;
 }

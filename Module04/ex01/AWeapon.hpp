@@ -7,12 +7,24 @@
 #ifndef MODULE04_AWEAPON_HPP
 # define MODULE04_AWEAPON_HPP
 
+#include <iostream>
 
 class AWeapon {
 public:
-	AWeapon();
-
+    AWeapon(std::string const &name, int apCost, int damage);
+    AWeapon(const AWeapon&);
+    AWeapon& operator=(const AWeapon &);
 	~AWeapon();
+    std::string const& getName() const;
+    int getAPCost() const;
+    int getDamage() const;
+    virtual void attack() const = 0;
+
+protected:
+    std::string _name;
+    int _apCost;
+    int _damage;
+	AWeapon();
 };
 
 

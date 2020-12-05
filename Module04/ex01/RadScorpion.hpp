@@ -7,12 +7,14 @@
 #ifndef MODULE04_RADSCORPION_HPP
 # define MODULE04_RADSCORPION_HPP
 
-class RadScorpion {
+#include "Enemy.hpp"
+class RadScorpion:  {
 public:
 	RadScorpion();
 	~RadScorpion();
 	RadScorpion & operator=(const RadScorpion &);
 	RadScorpion(const RadScorpion &);
+	virtual void takeDamage() const;
 };
 
 #endif

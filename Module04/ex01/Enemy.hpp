@@ -7,12 +7,19 @@
 #ifndef MODULE04_ENEMY_HPP
 # define MODULE04_ENEMY_HPP
 
-
+#include <iostream>
 class Enemy {
 public:
-	Enemy();
+	Enemy(int hp, std::string const &type);
+	virtual ~Enemy();
+	std::string const& getType() const;
+	int	getHP() const;
+	virtual void takeDamage(int);
 
-	~Enemy();
+private:
+	int _hp;
+	std::string _type;
+	Enemy();
 };
 
 

@@ -64,10 +64,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/arturlutfullin/Desktop/CPP Module/Module04"
+CMAKE_SOURCE_DIR = /Users/flavon/Desktop/CPP_Module/Module04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -100,14 +100,14 @@ clean: CMakeFiles/ex00.dir/clean
 CMakeFiles/ex03.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=19,20,21,22,23,24,25 "Built target ex03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=20,21,22,23,24,25,26 "Built target ex03"
 .PHONY : CMakeFiles/ex03.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex03.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex03.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ex03.dir/rule
 
 # Convenience name for target.
@@ -127,14 +127,14 @@ CMakeFiles/ex03.dir/clean:
 CMakeFiles/ex02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=14,15,16,17,18 "Built target ex02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19 "Built target ex02"
 .PHONY : CMakeFiles/ex02.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex02.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ex02.dir/rule
 
 # Convenience name for target.
@@ -154,14 +154,14 @@ CMakeFiles/ex02.dir/clean:
 CMakeFiles/ex01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=6,7,8,9,10,11,12,13 "Built target ex01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14 "Built target ex01"
 .PHONY : CMakeFiles/ex01.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex01.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ex01.dir/rule
 
 # Convenience name for target.
@@ -181,14 +181,14 @@ CMakeFiles/ex01.dir/clean:
 CMakeFiles/ex00.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target ex00"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target ex00"
 .PHONY : CMakeFiles/ex00.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex00.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex00.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arturlutfullin/Desktop/CPP Module/Module04/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/flavon/Desktop/CPP_Module/Module04/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ex00.dir/rule
 
 # Convenience name for target.
