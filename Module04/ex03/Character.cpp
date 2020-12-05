@@ -6,23 +6,47 @@
 //
 #include "Character.hpp"
 
-Character::Character() : _name(nullptr), _count(4) {
-	for (int i = 0; i < _count; ++i)
+Character::Character(const std::string &name): _name(name) {
+	for (int i = 0; i < 4; ++i)
+		this->_aMateria[i] = nullptr;
+}
+
+Character::Character() : _name(nullptr) {
+	for (int i = 0; i < 4; ++i)
 		this->_aMateria[i] = nullptr;
 }
 
 Character::~Character() {
-	for (int i = 0; i < _count; ++i)
+	for (int i = 0; i < 4; ++i)
 		delete this->_aMateria[i];
 }
 
 Character::Character(const Character &character) {
-	for (int i = 0; i < _count; ++i)
+	for (int i = 0; i < 4; ++i)
 		delete this->_aMateria[i];
 	*this = character;
 }
 
 Character & Character::operator=(const Character &character) {
 	this->_name = character.getName();
-	
+	for (int i = 0; i < 4; ++i) {
+		delete this->_aMateria[i];
+		this->_aMateria[i] = character._aMateria[i]->clone();
+	}
+	return *this;
+}
+
+void Character::unequip(int idx) {
+	if (idx >= 4 || idx < 0 || _aMateria[idx] == nullptr)
+		return;
+	this->_aMateria[idx] = nullptr;
+}
+
+void Character::equip(AMateria *m) {
+	for (int i = 0; i < 4; ++i) {
+		if (_aMateria[i] != nullptr)
+			continue;
+		_aMateria[i] = m->clone();
+		break;
+	}
 }

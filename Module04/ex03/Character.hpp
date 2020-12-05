@@ -10,19 +10,19 @@
 #include "ICharacter.hpp"
 class Character: public ICharacter {
 public:
-	Character();
+	Character(const std::string &name);
+	Character(const Character &);
 	virtual ~Character();
 	Character &operator=(const Character &);
-	Character(const Character &);
 	std::string const& getName() const;
 	void equip(AMateria* m);
-	void unequip(int idx) const;
+	void unequip(int idx);
 	void use(int idx, ICharacter &target);
 
 private:
 	std::string _name;
-	int _count;
 	AMateria* _aMateria[4];
+	Character();
 };
 
 #endif
