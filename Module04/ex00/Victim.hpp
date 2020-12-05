@@ -16,11 +16,13 @@ public:
 	Victim(const Victim&);
 	Victim operator=(const  Victim&);
 	std::string getName() const;
+	void getPolymorphed() const;
 
 private:
 	std::string _name;
 	Victim();
 };
 
+std::ostream& operator<<(std::ostream &out, const Victim &victim);
 
 #endif //MODULE04_VICTIM_HPP
