@@ -43,10 +43,20 @@ void Character::unequip(int idx) {
 }
 
 void Character::equip(AMateria *m) {
+	if (m == nullptr)
+		return;
 	for (int i = 0; i < 4; ++i) {
 		if (_aMateria[i] != nullptr)
 			continue;
 		_aMateria[i] = m->clone();
 		break;
 	}
+}
+
+const std::string & Character::getName() const { return _name; }
+
+void Character::use(int idx, ICharacter &target) {
+	if (idx >= 4 || idx < 0 || _aMateria[idx] == nullptr)
+		return;
+	this->_aMateria[idx]->use(target);
 }

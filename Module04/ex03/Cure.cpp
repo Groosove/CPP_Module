@@ -6,7 +6,7 @@
 //
 #include "Cure.hpp"
 
-Cure::Cure(): AMateria("ice") {}
+Cure::Cure(): AMateria("cure") {}
 
 Cure::Cure(const Cure &cure): AMateria(cure) { *this = cure; }
 

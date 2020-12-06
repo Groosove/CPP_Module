@@ -7,6 +7,8 @@
 #ifndef AMATERIA_HPP
 # define AMATERIA_HPP
 
+class ICharacter;
+
 #include <iostream>
 #include "ICharacter.hpp"
 

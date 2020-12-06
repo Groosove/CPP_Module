@@ -15,8 +15,8 @@ public:
 	virtual ~Cure();
 	Cure &operator=(const Cure &);
 	Cure(const Cure &);
-	AMateria* clone() const;
-	void use(ICharacter &target);
+	virtual AMateria* clone() const;
+	virtual void use(ICharacter &target);
 };
 
 #endif
