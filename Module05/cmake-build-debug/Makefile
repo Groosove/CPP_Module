@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/flavon/Desktop/CPP_Module/Module05/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named ex03
+
+# Build rule for target.
+ex03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex03
+.PHONY : ex03
+
+# fast build rule for target.
+ex03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/build
+.PHONY : ex03/fast
+
+#=============================================================================
+# Target rules for targets named ex02
+
+# Build rule for target.
+ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex02
+.PHONY : ex02
+
+# fast build rule for target.
+ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/build
+.PHONY : ex02/fast
 
 #=============================================================================
 # Target rules for targets named ex01
@@ -291,6 +317,357 @@ ex01/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ex01/main.cpp.s
 .PHONY : ex01/main.cpp.s
 
+ex02/Bureaucrat.o: ex02/Bureaucrat.cpp.o
+
+.PHONY : ex02/Bureaucrat.o
+
+# target to build an object file
+ex02/Bureaucrat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/Bureaucrat.cpp.o
+.PHONY : ex02/Bureaucrat.cpp.o
+
+ex02/Bureaucrat.i: ex02/Bureaucrat.cpp.i
+
+.PHONY : ex02/Bureaucrat.i
+
+# target to preprocess a source file
+ex02/Bureaucrat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/Bureaucrat.cpp.i
+.PHONY : ex02/Bureaucrat.cpp.i
+
+ex02/Bureaucrat.s: ex02/Bureaucrat.cpp.s
+
+.PHONY : ex02/Bureaucrat.s
+
+# target to generate assembly for a file
+ex02/Bureaucrat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/Bureaucrat.cpp.s
+.PHONY : ex02/Bureaucrat.cpp.s
+
+ex02/Form.o: ex02/Form.cpp.o
+
+.PHONY : ex02/Form.o
+
+# target to build an object file
+ex02/Form.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/Form.cpp.o
+.PHONY : ex02/Form.cpp.o
+
+ex02/Form.i: ex02/Form.cpp.i
+
+.PHONY : ex02/Form.i
+
+# target to preprocess a source file
+ex02/Form.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/Form.cpp.i
+.PHONY : ex02/Form.cpp.i
+
+ex02/Form.s: ex02/Form.cpp.s
+
+.PHONY : ex02/Form.s
+
+# target to generate assembly for a file
+ex02/Form.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/Form.cpp.s
+.PHONY : ex02/Form.cpp.s
+
+ex02/PresidentialPardonForm.o: ex02/PresidentialPardonForm.cpp.o
+
+.PHONY : ex02/PresidentialPardonForm.o
+
+# target to build an object file
+ex02/PresidentialPardonForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/PresidentialPardonForm.cpp.o
+.PHONY : ex02/PresidentialPardonForm.cpp.o
+
+ex02/PresidentialPardonForm.i: ex02/PresidentialPardonForm.cpp.i
+
+.PHONY : ex02/PresidentialPardonForm.i
+
+# target to preprocess a source file
+ex02/PresidentialPardonForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/PresidentialPardonForm.cpp.i
+.PHONY : ex02/PresidentialPardonForm.cpp.i
+
+ex02/PresidentialPardonForm.s: ex02/PresidentialPardonForm.cpp.s
+
+.PHONY : ex02/PresidentialPardonForm.s
+
+# target to generate assembly for a file
+ex02/PresidentialPardonForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/PresidentialPardonForm.cpp.s
+.PHONY : ex02/PresidentialPardonForm.cpp.s
+
+ex02/RobotomyRequestForm.o: ex02/RobotomyRequestForm.cpp.o
+
+.PHONY : ex02/RobotomyRequestForm.o
+
+# target to build an object file
+ex02/RobotomyRequestForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/RobotomyRequestForm.cpp.o
+.PHONY : ex02/RobotomyRequestForm.cpp.o
+
+ex02/RobotomyRequestForm.i: ex02/RobotomyRequestForm.cpp.i
+
+.PHONY : ex02/RobotomyRequestForm.i
+
+# target to preprocess a source file
+ex02/RobotomyRequestForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/RobotomyRequestForm.cpp.i
+.PHONY : ex02/RobotomyRequestForm.cpp.i
+
+ex02/RobotomyRequestForm.s: ex02/RobotomyRequestForm.cpp.s
+
+.PHONY : ex02/RobotomyRequestForm.s
+
+# target to generate assembly for a file
+ex02/RobotomyRequestForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/RobotomyRequestForm.cpp.s
+.PHONY : ex02/RobotomyRequestForm.cpp.s
+
+ex02/ShrubberyCreationForm.o: ex02/ShrubberyCreationForm.cpp.o
+
+.PHONY : ex02/ShrubberyCreationForm.o
+
+# target to build an object file
+ex02/ShrubberyCreationForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/ShrubberyCreationForm.cpp.o
+.PHONY : ex02/ShrubberyCreationForm.cpp.o
+
+ex02/ShrubberyCreationForm.i: ex02/ShrubberyCreationForm.cpp.i
+
+.PHONY : ex02/ShrubberyCreationForm.i
+
+# target to preprocess a source file
+ex02/ShrubberyCreationForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/ShrubberyCreationForm.cpp.i
+.PHONY : ex02/ShrubberyCreationForm.cpp.i
+
+ex02/ShrubberyCreationForm.s: ex02/ShrubberyCreationForm.cpp.s
+
+.PHONY : ex02/ShrubberyCreationForm.s
+
+# target to generate assembly for a file
+ex02/ShrubberyCreationForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/ShrubberyCreationForm.cpp.s
+.PHONY : ex02/ShrubberyCreationForm.cpp.s
+
+ex02/main.o: ex02/main.cpp.o
+
+.PHONY : ex02/main.o
+
+# target to build an object file
+ex02/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/main.cpp.o
+.PHONY : ex02/main.cpp.o
+
+ex02/main.i: ex02/main.cpp.i
+
+.PHONY : ex02/main.i
+
+# target to preprocess a source file
+ex02/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/main.cpp.i
+.PHONY : ex02/main.cpp.i
+
+ex02/main.s: ex02/main.cpp.s
+
+.PHONY : ex02/main.s
+
+# target to generate assembly for a file
+ex02/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ex02/main.cpp.s
+.PHONY : ex02/main.cpp.s
+
+ex03/Bureaucrat.o: ex03/Bureaucrat.cpp.o
+
+.PHONY : ex03/Bureaucrat.o
+
+# target to build an object file
+ex03/Bureaucrat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Bureaucrat.cpp.o
+.PHONY : ex03/Bureaucrat.cpp.o
+
+ex03/Bureaucrat.i: ex03/Bureaucrat.cpp.i
+
+.PHONY : ex03/Bureaucrat.i
+
+# target to preprocess a source file
+ex03/Bureaucrat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Bureaucrat.cpp.i
+.PHONY : ex03/Bureaucrat.cpp.i
+
+ex03/Bureaucrat.s: ex03/Bureaucrat.cpp.s
+
+.PHONY : ex03/Bureaucrat.s
+
+# target to generate assembly for a file
+ex03/Bureaucrat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Bureaucrat.cpp.s
+.PHONY : ex03/Bureaucrat.cpp.s
+
+ex03/Form.o: ex03/Form.cpp.o
+
+.PHONY : ex03/Form.o
+
+# target to build an object file
+ex03/Form.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Form.cpp.o
+.PHONY : ex03/Form.cpp.o
+
+ex03/Form.i: ex03/Form.cpp.i
+
+.PHONY : ex03/Form.i
+
+# target to preprocess a source file
+ex03/Form.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Form.cpp.i
+.PHONY : ex03/Form.cpp.i
+
+ex03/Form.s: ex03/Form.cpp.s
+
+.PHONY : ex03/Form.s
+
+# target to generate assembly for a file
+ex03/Form.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Form.cpp.s
+.PHONY : ex03/Form.cpp.s
+
+ex03/Intern.o: ex03/Intern.cpp.o
+
+.PHONY : ex03/Intern.o
+
+# target to build an object file
+ex03/Intern.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Intern.cpp.o
+.PHONY : ex03/Intern.cpp.o
+
+ex03/Intern.i: ex03/Intern.cpp.i
+
+.PHONY : ex03/Intern.i
+
+# target to preprocess a source file
+ex03/Intern.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Intern.cpp.i
+.PHONY : ex03/Intern.cpp.i
+
+ex03/Intern.s: ex03/Intern.cpp.s
+
+.PHONY : ex03/Intern.s
+
+# target to generate assembly for a file
+ex03/Intern.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/Intern.cpp.s
+.PHONY : ex03/Intern.cpp.s
+
+ex03/PresidentialPardonForm.o: ex03/PresidentialPardonForm.cpp.o
+
+.PHONY : ex03/PresidentialPardonForm.o
+
+# target to build an object file
+ex03/PresidentialPardonForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/PresidentialPardonForm.cpp.o
+.PHONY : ex03/PresidentialPardonForm.cpp.o
+
+ex03/PresidentialPardonForm.i: ex03/PresidentialPardonForm.cpp.i
+
+.PHONY : ex03/PresidentialPardonForm.i
+
+# target to preprocess a source file
+ex03/PresidentialPardonForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/PresidentialPardonForm.cpp.i
+.PHONY : ex03/PresidentialPardonForm.cpp.i
+
+ex03/PresidentialPardonForm.s: ex03/PresidentialPardonForm.cpp.s
+
+.PHONY : ex03/PresidentialPardonForm.s
+
+# target to generate assembly for a file
+ex03/PresidentialPardonForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/PresidentialPardonForm.cpp.s
+.PHONY : ex03/PresidentialPardonForm.cpp.s
+
+ex03/RobotomyRequestForm.o: ex03/RobotomyRequestForm.cpp.o
+
+.PHONY : ex03/RobotomyRequestForm.o
+
+# target to build an object file
+ex03/RobotomyRequestForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/RobotomyRequestForm.cpp.o
+.PHONY : ex03/RobotomyRequestForm.cpp.o
+
+ex03/RobotomyRequestForm.i: ex03/RobotomyRequestForm.cpp.i
+
+.PHONY : ex03/RobotomyRequestForm.i
+
+# target to preprocess a source file
+ex03/RobotomyRequestForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/RobotomyRequestForm.cpp.i
+.PHONY : ex03/RobotomyRequestForm.cpp.i
+
+ex03/RobotomyRequestForm.s: ex03/RobotomyRequestForm.cpp.s
+
+.PHONY : ex03/RobotomyRequestForm.s
+
+# target to generate assembly for a file
+ex03/RobotomyRequestForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/RobotomyRequestForm.cpp.s
+.PHONY : ex03/RobotomyRequestForm.cpp.s
+
+ex03/ShrubberyCreationForm.o: ex03/ShrubberyCreationForm.cpp.o
+
+.PHONY : ex03/ShrubberyCreationForm.o
+
+# target to build an object file
+ex03/ShrubberyCreationForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/ShrubberyCreationForm.cpp.o
+.PHONY : ex03/ShrubberyCreationForm.cpp.o
+
+ex03/ShrubberyCreationForm.i: ex03/ShrubberyCreationForm.cpp.i
+
+.PHONY : ex03/ShrubberyCreationForm.i
+
+# target to preprocess a source file
+ex03/ShrubberyCreationForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/ShrubberyCreationForm.cpp.i
+.PHONY : ex03/ShrubberyCreationForm.cpp.i
+
+ex03/ShrubberyCreationForm.s: ex03/ShrubberyCreationForm.cpp.s
+
+.PHONY : ex03/ShrubberyCreationForm.s
+
+# target to generate assembly for a file
+ex03/ShrubberyCreationForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/ShrubberyCreationForm.cpp.s
+.PHONY : ex03/ShrubberyCreationForm.cpp.s
+
+ex03/main.o: ex03/main.cpp.o
+
+.PHONY : ex03/main.o
+
+# target to build an object file
+ex03/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/main.cpp.o
+.PHONY : ex03/main.cpp.o
+
+ex03/main.i: ex03/main.cpp.i
+
+.PHONY : ex03/main.i
+
+# target to preprocess a source file
+ex03/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/main.cpp.i
+.PHONY : ex03/main.cpp.i
+
+ex03/main.s: ex03/main.cpp.s
+
+.PHONY : ex03/main.s
+
+# target to generate assembly for a file
+ex03/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ex03/main.cpp.s
+.PHONY : ex03/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -301,6 +678,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex00"
 	@echo "... ex01"
+	@echo "... ex02"
+	@echo "... ex03"
 	@echo "... ex00/Bureaucrat.o"
 	@echo "... ex00/Bureaucrat.i"
 	@echo "... ex00/Bureaucrat.s"
@@ -316,6 +695,45 @@ help:
 	@echo "... ex01/main.o"
 	@echo "... ex01/main.i"
 	@echo "... ex01/main.s"
+	@echo "... ex02/Bureaucrat.o"
+	@echo "... ex02/Bureaucrat.i"
+	@echo "... ex02/Bureaucrat.s"
+	@echo "... ex02/Form.o"
+	@echo "... ex02/Form.i"
+	@echo "... ex02/Form.s"
+	@echo "... ex02/PresidentialPardonForm.o"
+	@echo "... ex02/PresidentialPardonForm.i"
+	@echo "... ex02/PresidentialPardonForm.s"
+	@echo "... ex02/RobotomyRequestForm.o"
+	@echo "... ex02/RobotomyRequestForm.i"
+	@echo "... ex02/RobotomyRequestForm.s"
+	@echo "... ex02/ShrubberyCreationForm.o"
+	@echo "... ex02/ShrubberyCreationForm.i"
+	@echo "... ex02/ShrubberyCreationForm.s"
+	@echo "... ex02/main.o"
+	@echo "... ex02/main.i"
+	@echo "... ex02/main.s"
+	@echo "... ex03/Bureaucrat.o"
+	@echo "... ex03/Bureaucrat.i"
+	@echo "... ex03/Bureaucrat.s"
+	@echo "... ex03/Form.o"
+	@echo "... ex03/Form.i"
+	@echo "... ex03/Form.s"
+	@echo "... ex03/Intern.o"
+	@echo "... ex03/Intern.i"
+	@echo "... ex03/Intern.s"
+	@echo "... ex03/PresidentialPardonForm.o"
+	@echo "... ex03/PresidentialPardonForm.i"
+	@echo "... ex03/PresidentialPardonForm.s"
+	@echo "... ex03/RobotomyRequestForm.o"
+	@echo "... ex03/RobotomyRequestForm.i"
+	@echo "... ex03/RobotomyRequestForm.s"
+	@echo "... ex03/ShrubberyCreationForm.o"
+	@echo "... ex03/ShrubberyCreationForm.i"
+	@echo "... ex03/ShrubberyCreationForm.s"
+	@echo "... ex03/main.o"
+	@echo "... ex03/main.i"
+	@echo "... ex03/main.s"
 .PHONY : help
 
 

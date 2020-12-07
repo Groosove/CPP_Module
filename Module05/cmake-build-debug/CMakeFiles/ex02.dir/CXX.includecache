@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/Bureaucrat.hpp
+iostream
+-
+Form.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/Form.hpp
+
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/Form.hpp
+Bureaucrat.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/Bureaucrat.hpp
+
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/PresidentialPardonForm.hpp
+Form.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/Form.hpp
+
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/RobotomyRequestForm.hpp
+Form.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/Form.hpp
+
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/ShrubberyCreationForm.hpp
+Form.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/Form.hpp
+fstream
+-
+
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/main.cpp
+Bureaucrat.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/Bureaucrat.hpp
+ShrubberyCreationForm.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/ShrubberyCreationForm.hpp
+RobotomyRequestForm.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/RobotomyRequestForm.hpp
+PresidentialPardonForm.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex02/PresidentialPardonForm.hpp
+

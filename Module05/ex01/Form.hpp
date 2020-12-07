@@ -6,11 +6,12 @@
 #ifndef MODULE05_FORM_HPP
 # define MODULE05_FORM_HPP
 
+class Form;
 #include "Bureaucrat.hpp"
 
 class Form {
 public:
-	Form(const std:string &name, int signedCost, int signedExec);
+	Form(const std::string &name, int signedCost, int signedExec);
 	~Form();
 	Form(const Form &);
 	Form &operator=(const Form &);
@@ -20,8 +21,8 @@ public:
 
 	bool getSigned() const;
 	std::string const & getName() const;
-	int const getSignedCost() const;
-	int const getSignedExec() const;
+	int getSignedCost() const;
+	int getSignedExec() const;
 
 private:
 	bool _signed;

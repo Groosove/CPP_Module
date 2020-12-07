@@ -227,12 +227,6 @@ Module05_BINARY_DIR:STATIC=/Users/flavon/Desktop/CPP_Module/Module05/cmake-build
 //Value Computed by CMake
 Module05_SOURCE_DIR:STATIC=/Users/flavon/Desktop/CPP_Module/Module05
 
-//Value Computed by CMake
-Module_BINARY_DIR:STATIC=/Users/flavon/Desktop/CPP_Module/Module05/cmake-build-debug
-
-//Value Computed by CMake
-Module_SOURCE_DIR:STATIC=/Users/flavon/Desktop/CPP_Module/Module05
-
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
