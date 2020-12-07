@@ -4,6 +4,7 @@
 //
 
 #include "Bureaucrat.hpp"
+#include "Intern.hpp"
 
 int main(void) {
 	try { Bureaucrat bureaucrat("Bob", 151); }
@@ -51,5 +52,11 @@ int main(void) {
 	try { Bureaucrat bureaucrat2("Milly", 150); presidentialPardonForm.execute(bureaucrat2); }
 	catch (std::exception &e) { std::cout << e.what(); }
 	presidentialPardonForm.execute(bureaucrat);
+
+	std::cout << std::endl;
+	Intern  someRandomIntern; Form*   rrf;
+
+	try { rrf = someRandomIntern.makeForm("Robotomy", "Bender"); }
+	catch (std::exception &e) { std::cout << e.what(); }
 	return 0;
 }

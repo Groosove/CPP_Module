@@ -7,6 +7,9 @@
 # define INTERN_HPP
 
 #include "Form.hpp"
+#include "ShrubberyCreationForm.hpp"
+#include "RobotomyRequestForm.hpp"
+#include "PresidentialPardonForm.hpp"
 
 class Intern {
 public:
@@ -15,6 +18,7 @@ public:
 	~Intern();
 	Intern(const Intern &);
 	Intern &operator=(const Intern &);
+	struct UnknownForm: public std::exception { const char * what() const throw(); };
 	Form* makeForm(std::string const &nameForm, std::string const &target);
 };
 

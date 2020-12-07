@@ -6,25 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/Bureaucrat.cpp
-Bureaucrat.hpp
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/Bureaucrat.hpp
-
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/Bureaucrat.hpp
 iostream
 -
 Form.hpp
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/Form.hpp
 
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/Form.cpp
-Form.hpp
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/Form.hpp
-
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/Form.hpp
 Bureaucrat.hpp
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/Bureaucrat.hpp
 
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/PresidentialPardonForm.cpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex03/Intern.hpp
+Form.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex03/Form.hpp
+ShrubberyCreationForm.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex03/ShrubberyCreationForm.hpp
+RobotomyRequestForm.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex03/RobotomyRequestForm.hpp
 PresidentialPardonForm.hpp
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/PresidentialPardonForm.hpp
 
@@ -32,17 +30,9 @@ PresidentialPardonForm.hpp
 Form.hpp
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/Form.hpp
 
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/RobotomyRequestForm.cpp
-RobotomyRequestForm.hpp
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/RobotomyRequestForm.hpp
-
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/RobotomyRequestForm.hpp
 Form.hpp
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/Form.hpp
-
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/ShrubberyCreationForm.cpp
-ShrubberyCreationForm.hpp
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/ShrubberyCreationForm.hpp
 
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/ShrubberyCreationForm.hpp
 Form.hpp
@@ -53,10 +43,6 @@ fstream
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/main.cpp
 Bureaucrat.hpp
 /Users/flavon/Desktop/CPP_Module/Module05/ex03/Bureaucrat.hpp
-ShrubberyCreationForm.hpp
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/ShrubberyCreationForm.hpp
-RobotomyRequestForm.hpp
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/RobotomyRequestForm.hpp
-PresidentialPardonForm.hpp
-/Users/flavon/Desktop/CPP_Module/Module05/ex03/PresidentialPardonForm.hpp
+Intern.hpp
+/Users/flavon/Desktop/CPP_Module/Module05/ex03/Intern.hpp
 
