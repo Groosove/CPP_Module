@@ -1,4 +1,0 @@
-/Users/arturlutfullin/Desktop/CPP Module/Module02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/arturlutfullin/Desktop/CPP Module/Module02/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/arturlutfullin/Desktop/CPP Module/Module02/cmake-build-debug/CMakeFiles/ex01.dir
-/Users/arturlutfullin/Desktop/CPP Module/Module02/cmake-build-debug/CMakeFiles/ex00.dir
