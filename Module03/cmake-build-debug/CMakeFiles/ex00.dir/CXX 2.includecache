@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex00/FragTrap.cpp
+FragTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex00/FragTrap.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex00/FragTrap.hpp
+iostream
+-
+

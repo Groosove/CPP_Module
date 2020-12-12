@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/regina/Desktop/CPP_Module/Module06/ex00/Converter.cpp
+Converter.hpp
+/Users/regina/Desktop/CPP_Module/Module06/ex00/Converter.hpp
+
+/Users/regina/Desktop/CPP_Module/Module06/ex00/Converter.hpp
+iostream
+-
+iomanip
+-
+
+/Users/regina/Desktop/CPP_Module/Module06/ex00/main.cpp
+Converter.hpp
+/Users/regina/Desktop/CPP_Module/Module06/ex00/Converter.hpp
+

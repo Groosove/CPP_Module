@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex02/ClapTrap.hpp
+iostream
+-
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex02/FragTrap.hpp
+ClapTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex02/ClapTrap.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex02/ScavTrap.hpp
+ClapTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex02/ClapTrap.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex02/main.cpp
+FragTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex02/FragTrap.hpp
+ScavTrap.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module03/ex02/ScavTrap.hpp
+

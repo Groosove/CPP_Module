@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/Brain.hpp
+iostream
+-
+sstream
+-
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/Human.cpp
+Human.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/Human.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/Human.hpp
+Brain.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/Brain.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/main.cpp
+Human.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/Human.hpp
+

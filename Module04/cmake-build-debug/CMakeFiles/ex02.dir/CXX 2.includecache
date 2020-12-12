@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/flavon/Desktop/CPP_Module/Module04/ex02/ISpaceMarine.hpp
+iostream
+-
+
+/Users/flavon/Desktop/CPP_Module/Module04/ex02/ISquad.hpp
+ISpaceMarine.hpp
+/Users/flavon/Desktop/CPP_Module/Module04/ex02/ISpaceMarine.hpp
+
+/Users/flavon/Desktop/CPP_Module/Module04/ex02/Squad.cpp
+Squad.hpp
+/Users/flavon/Desktop/CPP_Module/Module04/ex02/Squad.hpp
+
+/Users/flavon/Desktop/CPP_Module/Module04/ex02/Squad.hpp
+ISquad.hpp
+/Users/flavon/Desktop/CPP_Module/Module04/ex02/ISquad.hpp
+

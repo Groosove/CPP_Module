@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/flavon/Desktop/CPP_Module/Module08/ex00/easyfind.hpp
+iterator
+-
+map
+-
+iostream
+-
+vector
+-
+
+/Users/flavon/Desktop/CPP_Module/Module08/ex00/main.cpp
+easyfind.hpp
+/Users/flavon/Desktop/CPP_Module/Module08/ex00/easyfind.hpp
+

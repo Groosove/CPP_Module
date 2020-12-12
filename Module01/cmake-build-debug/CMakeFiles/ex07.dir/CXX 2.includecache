@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/Replace.cpp
+Replace.hpp
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/Replace.hpp
+
+/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/Replace.hpp
+iostream
+-
+fstream
+-
+istream
+-
+

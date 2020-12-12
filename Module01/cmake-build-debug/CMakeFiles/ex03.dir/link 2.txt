@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Wextra -Werror -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex03.dir/ex03/main.cpp.o CMakeFiles/ex03.dir/ex03/ZombieHorde.cpp.o CMakeFiles/ex03.dir/ex03/Zombie.cpp.o  -o ex03 
