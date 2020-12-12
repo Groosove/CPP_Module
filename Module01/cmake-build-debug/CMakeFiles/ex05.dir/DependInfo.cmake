@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/Brain.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex05.dir/ex05/Brain.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/Human.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex05.dir/ex05/Human.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex05/main.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex05.dir/ex05/main.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex05/Brain.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex05.dir/ex05/Brain.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex05/Human.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex05.dir/ex05/Human.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex05/main.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex05.dir/ex05/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

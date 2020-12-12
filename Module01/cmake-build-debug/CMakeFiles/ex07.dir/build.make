@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/arturlutfullin/Desktop/CPP Module/Module01"
+CMAKE_SOURCE_DIR = /Users/flavon/Desktop/CPP_Module/Module01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex07.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/ex07.dir/flags.make
 
 CMakeFiles/ex07.dir/ex07/main.cpp.o: CMakeFiles/ex07.dir/flags.make
 CMakeFiles/ex07.dir/ex07/main.cpp.o: ../ex07/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex07.dir/ex07/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex07.dir/ex07/main.cpp.o -c "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex07.dir/ex07/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex07.dir/ex07/main.cpp.o -c /Users/flavon/Desktop/CPP_Module/Module01/ex07/main.cpp
 
 CMakeFiles/ex07.dir/ex07/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex07.dir/ex07/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/main.cpp" > CMakeFiles/ex07.dir/ex07/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/flavon/Desktop/CPP_Module/Module01/ex07/main.cpp > CMakeFiles/ex07.dir/ex07/main.cpp.i
 
 CMakeFiles/ex07.dir/ex07/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex07.dir/ex07/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/main.cpp" -o CMakeFiles/ex07.dir/ex07/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/flavon/Desktop/CPP_Module/Module01/ex07/main.cpp -o CMakeFiles/ex07.dir/ex07/main.cpp.s
 
 CMakeFiles/ex07.dir/ex07/Replace.cpp.o: CMakeFiles/ex07.dir/flags.make
 CMakeFiles/ex07.dir/ex07/Replace.cpp.o: ../ex07/Replace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex07.dir/ex07/Replace.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex07.dir/ex07/Replace.cpp.o -c "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/Replace.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex07.dir/ex07/Replace.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex07.dir/ex07/Replace.cpp.o -c /Users/flavon/Desktop/CPP_Module/Module01/ex07/Replace.cpp
 
 CMakeFiles/ex07.dir/ex07/Replace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex07.dir/ex07/Replace.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/Replace.cpp" > CMakeFiles/ex07.dir/ex07/Replace.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/flavon/Desktop/CPP_Module/Module01/ex07/Replace.cpp > CMakeFiles/ex07.dir/ex07/Replace.cpp.i
 
 CMakeFiles/ex07.dir/ex07/Replace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex07.dir/ex07/Replace.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex07/Replace.cpp" -o CMakeFiles/ex07.dir/ex07/Replace.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/flavon/Desktop/CPP_Module/Module01/ex07/Replace.cpp -o CMakeFiles/ex07.dir/ex07/Replace.cpp.s
 
 # Object files for target ex07
 ex07_OBJECTS = \
@@ -115,7 +115,7 @@ ex07: CMakeFiles/ex07.dir/ex07/main.cpp.o
 ex07: CMakeFiles/ex07.dir/ex07/Replace.cpp.o
 ex07: CMakeFiles/ex07.dir/build.make
 ex07: CMakeFiles/ex07.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex07"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex07"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex07.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/ex07.dir/clean:
 .PHONY : CMakeFiles/ex07.dir/clean
 
 CMakeFiles/ex07.dir/depend:
-	cd "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/arturlutfullin/Desktop/CPP Module/Module01" "/Users/arturlutfullin/Desktop/CPP Module/Module01" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex07.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/flavon/Desktop/CPP_Module/Module01 /Users/flavon/Desktop/CPP_Module/Module01 /Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug /Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug /Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex07.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ex07.dir/depend
 

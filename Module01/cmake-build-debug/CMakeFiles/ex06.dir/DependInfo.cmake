@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex06/HumanA.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex06.dir/ex06/HumanA.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex06/HumanB.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex06.dir/ex06/HumanB.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex06/Weapon.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex06.dir/ex06/Weapon.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex06/main.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex06.dir/ex06/main.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex06/HumanA.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex06.dir/ex06/HumanA.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex06/HumanB.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex06.dir/ex06/HumanB.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex06/Weapon.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex06.dir/ex06/Weapon.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex06/main.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex06.dir/ex06/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

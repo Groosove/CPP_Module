@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex04/ex04.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex04.dir/ex04/ex04.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex04/ex04.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex04.dir/ex04/ex04.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

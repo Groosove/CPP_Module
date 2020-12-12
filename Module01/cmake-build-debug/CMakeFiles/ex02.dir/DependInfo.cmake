@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex02/Zombie.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex02.dir/ex02/Zombie.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex02/ZombieEvent.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex02.dir/ex02/ZombieEvent.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex02/main.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex02.dir/ex02/main.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex02/Zombie.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex02.dir/ex02/Zombie.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex02/ZombieEvent.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex02.dir/ex02/ZombieEvent.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex02/main.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex02.dir/ex02/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

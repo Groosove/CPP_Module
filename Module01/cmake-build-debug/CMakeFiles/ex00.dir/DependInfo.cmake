@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex00/Pony.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex00.dir/ex00/Pony.cpp.o"
-  "/Users/arturlutfullin/Desktop/CPP Module/Module01/ex00/main.cpp" "/Users/arturlutfullin/Desktop/CPP Module/Module01/cmake-build-debug/CMakeFiles/ex00.dir/ex00/main.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex00/Pony.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex00.dir/ex00/Pony.cpp.o"
+  "/Users/flavon/Desktop/CPP_Module/Module01/ex00/main.cpp" "/Users/flavon/Desktop/CPP_Module/Module01/cmake-build-debug/CMakeFiles/ex00.dir/ex00/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

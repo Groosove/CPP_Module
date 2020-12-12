@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Wextra -Werror -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex02.dir/ex02/ZombieEvent.cpp.o CMakeFiles/ex02.dir/ex02/Zombie.cpp.o CMakeFiles/ex02.dir/ex02/main.cpp.o  -o ex02 
